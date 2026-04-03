@@ -1,0 +1,11 @@
+
+
+try:
+    with open('readfile.txt') as file:
+        for line in file:
+            line = line.strip()
+            if len(line) > 10:
+                print(line)
+except FileNotFoundError:
+    print("file not found")
+
