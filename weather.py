@@ -26,8 +26,3 @@ def get_zurich_weather():
 result = get_zurich_weather()
 print(result)
 
-"""
-print("Temperature:", weather["temperature"], "celsius")
-print("Wind speed:", weather["windspeed"], "km/h")
-print("Is daytime:", weather["is_day"])
-"""
